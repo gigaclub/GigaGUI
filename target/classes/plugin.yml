@@ -1,0 +1,5 @@
+name: GigaGUI
+version: 1.0-SNAPSHOT
+main: net.gigaclub.feier68.gigagui.Main
+api-version: 1.13
+authors: [Feier68]
