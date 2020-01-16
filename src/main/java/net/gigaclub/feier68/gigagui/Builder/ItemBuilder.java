@@ -8,8 +8,8 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 public class ItemBuilder extends ItemStack {
 
-    private ItemStack item;
-    private ItemMeta itemMeta;
+    protected ItemStack item;
+    protected ItemMeta itemMeta;
 
     public ItemBuilder(Material material, short subID) {
         item = new ItemStack(material, 1, subID);

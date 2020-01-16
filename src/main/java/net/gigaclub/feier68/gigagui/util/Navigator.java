@@ -22,17 +22,17 @@ public class Navigator implements Listener {
         Inventory inv = Bukkit.createInventory(null,9*1,OPENGUI);
         inv.setItem(1,new ItemStack(Material.GOLDEN_APPLE));
         inv.setItem(7,new ItemStack(Material.NETHER_STAR));
-        inv.setItem(0,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
-        inv.setItem(2,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
-        inv.setItem(3,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
-        inv.setItem(5,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
-        inv.setItem(6,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
-        inv.setItem(8,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
+        inv.setItem(0,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
+        inv.setItem(2,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
+        inv.setItem(3,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
+        inv.setItem(5,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
+        inv.setItem(6,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
+        inv.setItem(8,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
         if(player.hasPermission("gui.admin")) {
             inv.setItem(4, new ItemStack(Material.TOTEM_OF_UNDYING));
+            player.openInventory(inv);
         }else
-            inv.setItem(4,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
-
+            inv.setItem(4,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
         player.openInventory(inv);
     }
 
@@ -65,7 +65,7 @@ public class Navigator implements Listener {
                 inv.setItem(1,new ItemBuilder(Material.BRICK).setName("§cCreative").setLore("§aSetzt dich in Creativ").build());
                 inv.setItem(10,new ItemStack(Material.IRON_SWORD));
                 inv.setItem(19,new ItemStack(Material.SKELETON_SKULL));
-                inv.setItem(27,new ItemBuilder(Material.PAPER).setName("Zurück"));
+                inv.setItem(26,new ItemBuilder(Material.PAPER).setName("Zurück"));
                 player.openInventory(inv);
 
                 break;
@@ -86,17 +86,17 @@ public class Navigator implements Listener {
                 Inventory inv2 = Bukkit.createInventory(null,9*1,OPENGUI);
                 inv2.setItem(1,new ItemStack(Material.GOLDEN_APPLE));
                 inv2.setItem(7,new ItemStack(Material.NETHER_STAR));
-                inv2.setItem(0,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
-                inv2.setItem(2,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
-                inv2.setItem(3,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
-                inv2.setItem(5,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
-                inv2.setItem(6,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
-                inv2.setItem(8,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
+                inv2.setItem(0,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
+                inv2.setItem(2,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
+                inv2.setItem(3,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
+                inv2.setItem(5,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
+                inv2.setItem(6,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
+                inv2.setItem(8,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
                 if(player.hasPermission("gigagui.admin")) {
                     inv2.setItem(4, new ItemStack(Material.TOTEM_OF_UNDYING));
                     player.openInventory(inv2);
                 }else
-                    inv2.setItem(4,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" "));
+                    inv2.setItem(4,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
                     player.openInventory(inv2);
 
                 player.openInventory(inv2);

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9232bc8f-bdde-4581-8980-89c30ca032ac" name="Default Changelist" comment="" />
+    <list default="true" id="9232bc8f-bdde-4581-8980-89c30ca032ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/gigaclub/feier68/gigagui/Builder/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/gigaclub/feier68/gigagui/Builder/ItemBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/gigaclub/feier68/gigagui/util/Navigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/gigaclub/feier68/gigagui/util/Navigator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/gigaclub/feier68/gigagui/Builder/ItemBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/gigaclub/feier68/gigagui/Builder/ItemBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/gigaclub/feier68/gigagui/util/Navigator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/gigaclub/feier68/gigagui/util/Navigator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-GigaGUI-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-GigaGUI-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +23,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +37,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WG1470xX4HbyOfC7sR8IGFmGcD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Plugin/Gigaclub/WEloader" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -124,30 +139,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1578767151309" />
+    <state x="578" y="333" key="CommitChangelistDialog2" timestamp="1579203497795">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="578" y="333" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579203497795" />
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1578767226476">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1578767226476" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1579201316349">
+    <state width="1340" height="401" key="GridCell.Tab.0.bottom" timestamp="1579203497827">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1340" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1578938991289" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579201316349" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1579201316349">
+    <state width="1340" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579203497827" />
+    <state width="1340" height="401" key="GridCell.Tab.0.center" timestamp="1579203497826">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1340" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1578938991289" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579201316349" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1579201316349">
+    <state width="1340" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579203497826" />
+    <state width="1340" height="401" key="GridCell.Tab.0.left" timestamp="1579203497826">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1340" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1578938991288" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579201316349" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1579201316349">
+    <state width="1340" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579203497826" />
+    <state width="1340" height="401" key="GridCell.Tab.0.right" timestamp="1579203497826">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1340" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1578938991289" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579201316349" />
+    <state width="1340" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579203497826" />
+    <state x="733" y="660" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579203461319">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="733" y="660" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579203461319" />
     <state x="1022" y="329" key="refactoring.ChangeSignatureDialog" timestamp="1578938734437">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
