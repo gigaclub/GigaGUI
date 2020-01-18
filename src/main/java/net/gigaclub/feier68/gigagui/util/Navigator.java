@@ -33,7 +33,7 @@ public class Navigator implements Listener {
         inv.setItem(6,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
         inv.setItem(8,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
         if(player.hasPermission("gui.admin")) {
-            inv.setItem(4, new ItemStack(Material.TOTEM_OF_UNDYING));
+            inv.setItem(4, new ItemStack(new ItemBuilder(Material.TOTEM_OF_UNDYING).setName("§cAdmin GUI").build()));
             player.openInventory(inv);
         }else
             inv.setItem(4,new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").build());
@@ -62,7 +62,7 @@ public class Navigator implements Listener {
 
         if (!(event.getWhoClicked() instanceof Player)) return;
         Player player = (Player) event.getWhoClicked();
-        if (!(event.getCurrentItem().getType() == Material.NAME_TAG))return;
+
         event.setCancelled(true);
         switch (event.getCurrentItem().getType()){
             case TOTEM_OF_UNDYING:
@@ -71,7 +71,7 @@ public class Navigator implements Listener {
                 inv.setItem(1,new ItemBuilder(Material.BRICK).setName("§cCreative").setLore("§aSetzt dich in Creativ").build());
                 inv.setItem(10,new ItemStack(Material.IRON_SWORD));
                 inv.setItem(19,new ItemStack(Material.SKELETON_SKULL));
-                inv.setItem(26,new ItemBuilder(Material.PAPER).setName("Zurück"));
+                inv.setItem(26,new ItemBuilder(Material.PAPER).setName("Zurück").build());
                 player.openInventory(inv);
 
                 break;
