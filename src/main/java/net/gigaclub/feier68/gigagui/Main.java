@@ -1,6 +1,7 @@
 package net.gigaclub.feier68.gigagui;
 
 
+import net.gigaclub.feier68.gigagui.util.JoinListener;
 import net.gigaclub.feier68.gigagui.util.Navigator;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
@@ -17,6 +18,7 @@ public class Main extends JavaPlugin {
 
         PluginManager pluginManager = Bukkit.getPluginManager();
         pluginManager.registerEvents(new Navigator(), this);
+        pluginManager.registerEvents(new JoinListener(), this);
     }
 
 

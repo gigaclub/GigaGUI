@@ -43,6 +43,9 @@
                         </configuration>
                     </execution>
                 </executions>
+                <configuration>
+                    <outputDirectory>C:\Users\Ricardo\Desktop\test\1.15 server\plugins</outputDirectory>
+                </configuration>
             </plugin>
         </plugins>
         <resources>

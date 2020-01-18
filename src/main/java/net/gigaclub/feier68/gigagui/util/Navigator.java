@@ -9,9 +9,13 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
+import org.bukkit.event.player.PlayerPickupItemEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
+
+import java.awt.dnd.DropTargetListener;
 
 public class Navigator implements Listener {
 
@@ -45,18 +49,20 @@ public class Navigator implements Listener {
         if (event.getAction() == Action.RIGHT_CLICK_AIR || event.getAction() == Action.RIGHT_CLICK_BLOCK) {
             openGUI(event.getPlayer());
         }
-
-
-
-
-
     }
-
+    @EventHandler
+    public void handleDrop(PlayerDropItemEvent event){
+    if(event.getItemDrop().getItemStack().getType() == Material.NAME_TAG){
+        event.isCancelled();
+        event.setCancelled(true);
+        }
+    }
     @EventHandler
     public void handleNavigatorGUIClick(InventoryClickEvent event){
 
         if (!(event.getWhoClicked() instanceof Player)) return;
         Player player = (Player) event.getWhoClicked();
+        if (!(event.getCurrentItem().getType() == Material.NAME_TAG))return;
         event.setCancelled(true);
         switch (event.getCurrentItem().getType()){
             case TOTEM_OF_UNDYING:
