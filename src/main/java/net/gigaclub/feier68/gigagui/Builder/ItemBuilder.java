@@ -1,10 +1,10 @@
 package net.gigaclub.feier68.gigagui.Builder;
 
-import java.util.Arrays;
-
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+
+import java.util.Arrays;
 
 public class ItemBuilder extends ItemStack {
 
@@ -30,10 +30,16 @@ public class ItemBuilder extends ItemStack {
         return this;
     }
 
+    public ItemBuilder setLMeta(String Lmeta) {
+        itemMeta.setLocalizedName("");
+        return this;
+    }
+
     public ItemStack build() {
         item.setItemMeta(itemMeta);
         return item;
     }
+
 
 }
 
