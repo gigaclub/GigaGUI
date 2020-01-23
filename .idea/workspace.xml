@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9232bc8f-bdde-4581-8980-89c30ca032ac" name="Default Changelist" comment="k.a">
+    <list default="true" id="9232bc8f-bdde-4581-8980-89c30ca032ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gigaclub/feier68/gigagui/Builder/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/gigaclub/feier68/gigagui/Builder/ItemBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gigaclub/feier68/gigagui/util/Navigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/gigaclub/feier68/gigagui/util/Navigator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/gigaclub/feier68/gigagui/Builder/ItemBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/gigaclub/feier68/gigagui/Builder/ItemBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/gigaclub/feier68/gigagui/util/Navigator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/gigaclub/feier68/gigagui/util/Navigator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/gigaclub/feier68/gigagui/util/Navigator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/gigaclub/feier68/gigagui/util/Navigator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579366849283</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add setLMeta in ItemBuilder.class&#10;Navigator.class vereinfachen">
+      <created>1579804778809</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579804778809</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -155,7 +156,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="add noDrop &#10;bug fix" />
     <MESSAGE value="k.a" />
-    <option name="LAST_COMMIT_MESSAGE" value="k.a" />
+    <MESSAGE value="add setLMeta in ItemBuilder.class&#10;Navigator.class vereinfachen" />
+    <option name="LAST_COMMIT_MESSAGE" value="add setLMeta in ItemBuilder.class&#10;Navigator.class vereinfachen" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -173,35 +175,35 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1076" y="560" width="408" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579350428527" />
-    <state x="-2159" y="201" width="1800" height="827" key="CommitChangelistDialog2" timestamp="1579718130197">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state x="398" y="196" width="1800" height="827" key="CommitChangelistDialog2" timestamp="1579804778289">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1137" y="383" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1579355076849" />
-    <state x="-2159" y="201" width="1800" height="827" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579718130197" />
+    <state x="398" y="196" width="1800" height="827" key="CommitChangelistDialog2/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579804778289" />
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1579366860182">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579366860182" />
-    <state width="2517" height="241" key="GridCell.Tab.0.bottom" timestamp="1579804631725">
+    <state width="2517" height="241" key="GridCell.Tab.0.bottom" timestamp="1579804791272">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1774" height="670" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1579718547517" />
-    <state width="2517" height="241" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579804631725" />
-    <state width="2517" height="241" key="GridCell.Tab.0.center" timestamp="1579804631725">
+    <state width="2517" height="241" key="GridCell.Tab.0.bottom/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579804791272" />
+    <state width="2517" height="241" key="GridCell.Tab.0.center" timestamp="1579804791272">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1774" height="670" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1579718547517" />
-    <state width="2517" height="241" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579804631725" />
-    <state width="2517" height="241" key="GridCell.Tab.0.left" timestamp="1579804631725">
+    <state width="2517" height="241" key="GridCell.Tab.0.center/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579804791272" />
+    <state width="2517" height="241" key="GridCell.Tab.0.left" timestamp="1579804791272">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1774" height="670" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1579718547517" />
-    <state width="2517" height="241" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579804631725" />
-    <state width="2517" height="241" key="GridCell.Tab.0.right" timestamp="1579804631725">
+    <state width="2517" height="241" key="GridCell.Tab.0.left/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579804791272" />
+    <state width="2517" height="241" key="GridCell.Tab.0.right" timestamp="1579804791272">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1774" height="670" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1579718547517" />
-    <state width="2517" height="241" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579804631725" />
+    <state width="2517" height="241" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1579804791272" />
     <state x="733" y="660" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579801740291">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
