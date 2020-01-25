@@ -35,6 +35,11 @@ public class ItemBuilder extends ItemStack {
         return this;
     }
 
+    public ItemBuilder setMetadat(String mata, String data) {
+
+        return this;
+    }
+
     public ItemStack build() {
         item.setItemMeta(itemMeta);
         return item;

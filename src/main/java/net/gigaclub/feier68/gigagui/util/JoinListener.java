@@ -17,5 +17,6 @@ public class JoinListener implements Listener {
         player.getInventory().setItem(8,new ItemBuilder(Material.NAME_TAG).setName("§aMenu").setLore("§cÖffnet das Menu").build());
     }
 
+
 }
 
