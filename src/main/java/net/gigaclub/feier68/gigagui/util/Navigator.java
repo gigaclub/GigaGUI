@@ -22,8 +22,6 @@ public class Navigator implements Listener {
     private final String ADMINGUI = "admin GUI";
 
 
-}
-
     public void openGUI(Player player) {
         ItemStack black = new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").setLMeta("black").build();
         int invSlot = 9 * 5;
