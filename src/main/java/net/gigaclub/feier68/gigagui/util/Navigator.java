@@ -55,7 +55,6 @@ public class Navigator implements Listener {
     @EventHandler
     public void handleDrop(PlayerDropItemEvent event) {
         if (event.getItemDrop().getItemStack().getType() == Material.NAME_TAG) {
-            event.isCancelled();
             event.setCancelled(true);
         }
     }
@@ -67,13 +66,12 @@ public class Navigator implements Listener {
             ItemStack black = new ItemBuilder(Material.BLACK_STAINED_GLASS_PANE).setName(" ").setLMeta("black").build();
             if (!(event.getWhoClicked() instanceof Player)) return;
             Player player = (Player) event.getWhoClicked();
-
             event.setCancelled(true);
 
 
             switch (event.getCurrentItem().getType()) {
                 case TOTEM_OF_UNDYING:
-                    if (player.getOpenInventory().getItem(0).getType() == Material.BLACK_STAINED_GLASS_PANE) {
+                    if (player.getOpenInventory().getTitle() == OPENGUI) {
                         player.closeInventory();
                         int slots = 9 * 3;
                         Inventory inv = Bukkit.createInventory(null, slots, ADMINGUI);
@@ -87,15 +85,16 @@ public class Navigator implements Listener {
                     }
                     break;
                 case BRICK:
-                    if (player.getOpenInventory().getItem(0).getType() == Material.BLACK_STAINED_GLASS_PANE) {
+                    if (player.getOpenInventory().getTitle() == ADMINGUI) {
                         if (!(player.getGameMode() == GameMode.CREATIVE)) {
                             player.setGameMode(GameMode.CREATIVE);
                             player.sendMessage("Creative Mode Gesetzt");
                         } else player.sendMessage("");
+
                     }
                     break;
                 case IRON_SWORD:
-                    if (player.getOpenInventory().getItem(0).getType() == Material.BLACK_STAINED_GLASS_PANE) {
+                    if (player.getOpenInventory().getTitle() == ADMINGUI) {
                         if (!(player.getGameMode() == GameMode.SURVIVAL)) {
                             player.setGameMode(GameMode.SURVIVAL);
                             player.sendMessage("Survival Mode Gesetzt");
@@ -103,7 +102,7 @@ public class Navigator implements Listener {
                     }
                     break;
                 case SKELETON_SKULL:
-                    if (player.getOpenInventory().getItem(0).getType() == Material.BLACK_STAINED_GLASS_PANE) {
+                    if (player.getOpenInventory().getTitle() == ADMINGUI) {
                         if (!(player.getGameMode() == GameMode.SPECTATOR)) {
                             player.setGameMode(GameMode.SPECTATOR);
                             player.sendMessage("Spactator Mode Gesetzt");
@@ -111,7 +110,7 @@ public class Navigator implements Listener {
                     }
                     break;
                 case PAPER:
-                    if (player.getOpenInventory().getItem(0).getType() == Material.BLACK_STAINED_GLASS_PANE) {
+                    if (player.getOpenInventory().getTitle() == ADMINGUI || player.getOpenInventory().getTitle() == OPENGUI) {
                         player.closeInventory();
                         int inv2slot = 9 * 5;
                         Inventory inv2 = Bukkit.createInventory(null, inv2slot, OPENGUI);
@@ -128,13 +127,13 @@ public class Navigator implements Listener {
                     }
                     break;
                 case BLACK_STAINED_GLASS_PANE:
-                    if (player.getOpenInventory().getItem(0).getType() == Material.BLACK_STAINED_GLASS_PANE) {
+                    if (player.getOpenInventory().getTitle() == ADMINGUI || player.getOpenInventory().getTitle() == OPENGUI) {
                         player.closeInventory();
                     }
                     break;
                 case GOLDEN_APPLE:
                 case NETHER_STAR:
-                    if (player.getOpenInventory().getItem(0).getType() == Material.BLACK_STAINED_GLASS_PANE) {
+                    if (player.getOpenInventory().getTitle() == OPENGUI) {
                         player.sendMessage("§aCommt noch");
                     }
                     break;
